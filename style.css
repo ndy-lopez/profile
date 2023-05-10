@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FFFAF4;
+  margin: 0 auto;
+  padding: 50px
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #75bc94;
+}
+
+p {
+  font-size: 18px;
+  color: #5B4376;
+  text-shadow: 0.5px 0.5px 0.5px #000000;
+}
+
+
+li {
+  display: inline;
+  padding: 50px;
+  align-items: center;
+}
+
+i {
+
+  color: turquoise;
+  align-items: center;
+  padding-left: 40px;
+}
+
+i:hover {
+ color: #E08E6D;
+}
+
+img {
+  width: 200px;
+  border-radius: 50%
+}
+
+.container {
+  padding: 50px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card-white-1 {
+
+  text-align: center;
+  background: white;                         /* White background */
+  padding-bottom: 50px;                    /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin-bottom: 20px;    /* Light shadow */
+}
+
+.card-white-2 {
+
+  font-size: 50px;
+  text-align: center;
+  background: white;                         /* White background */
+  padding: 10px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+}
+
+
+#btn-grey {
+  font-size: 16px;
+  color: #D4ADFC;
+  text-decoration: none;
+  background-color:darkslategrey;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+#btn-grey:hover {
+  background-color:#D25380;
+}
+
+#follow {
+  font-size: 30px;
+}
