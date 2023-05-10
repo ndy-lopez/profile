@@ -82,3 +82,24 @@ img {
 #follow {
   font-size: 30px;
 }
+
+
+
+/* For screens larger than 768px */
+@media (min-width: 768px) {
+  .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  li {
+    display: inline;
+    padding: 50px;
+    align-items: center;
+  }
+
+  img {
+    width: 200px;
+    border-radius: 50%;
+  }
+}
